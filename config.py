@@ -27,18 +27,18 @@ model_path = os.getcwd() + "/model/"
 model_args = {
     "ssq": {
         "model_args": {
-            "windows_size": 3,
+            "windows_size": 6,
             "batch_size": 1,
             "sequence_len": 6,
             "red_n_class": 33,
-            "red_epochs": 10,
-            "red_embedding_size": 32,
-            "red_hidden_size": 32,
+            "red_epochs": 12,
+            "red_embedding_size": 36,
+            "red_hidden_size": 36,
             "red_layer_size": 1,
             "blue_n_class": 16,
-            "blue_epochs": 10,
-            "blue_embedding_size": 32,
-            "blue_hidden_size": 32,
+            "blue_epochs": 12,
+            "blue_embedding_size": 36,
+            "blue_hidden_size": 36,
             "blue_layer_size": 1
         },
         "train_args": {
@@ -58,19 +58,19 @@ model_args = {
     },
     "dlt": {
         "model_args": {
-            "windows_size": 3,
+            "windows_size": 6,
             "batch_size": 1,
             "red_sequence_len": 5,
             "red_n_class": 35,
-            "red_epochs": 1,
-            "red_embedding_size": 32,
-            "red_hidden_size": 32,
+            "red_epochs": 12,
+            "red_embedding_size": 36,
+            "red_hidden_size": 36,
             "red_layer_size": 1,
             "blue_sequence_len": 2,
             "blue_n_class": 12,
-            "blue_epochs": 1,
-            "blue_embedding_size": 32,
-            "blue_hidden_size": 32,
+            "blue_epochs": 12,
+            "blue_embedding_size": 36,
+            "blue_hidden_size": 36,
             "blue_layer_size": 1
         },
         "train_args": {
